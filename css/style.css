@@ -1,0 +1,30 @@
+body {
+  font-size: 16px;
+  background: white;  
+  color: #4e4e4e;
+  line-height: 135%;
+  font-family: helvetica;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-bottom: 1.6em;
+    background: #90C830;
+    font-size: 15px;
+}
+.navbar li{
+  margin-top: 10px;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    height: 1px;
+    width: 100%;
+}
+#footerText{
+    color: white;
+    text-align: center;
+}
+ 
