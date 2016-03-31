@@ -11,16 +11,6 @@ body {
     background-attachment: scroll;
 }
 
-/*.navbar {
-    border-radius: 0;
-    margin-bottom: 0;
-    padding-bottom: 1.6em;
-    background: #90C830;
-    font-size: 15px;
-}
-.navbar li{
-  margin-top: 10px;
-}*/
 .container-fluid {
   margin: 0 8%;
 }
@@ -38,20 +28,23 @@ footer:before{
   background: url("../images/arrow.svg") no-repeat;
 }
 
-/*#header{
-    color: white;
+.pull-right{
+  margin-right: 20px;
 }
-.navbar-brand{
-    font-size: 35px;
+
+.pull-right img{
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin-bottom: 10px;
 }
-*/
 .img-circle {
-  margin-top: 20px;
+  margin-top: -30px;
   margin-bottom: 20px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 img{
   height: 200px;
@@ -61,6 +54,7 @@ img{
 .content{
   margin: auto;
   max-width: 1200px;
+  border-radius: 25px;
 }
 
 #header {
@@ -85,6 +79,7 @@ header {
     font-weight: 600;
     font-size: 2em;
     letter-spacing: 10px;
+    /*margin-left: 200px;*/
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -101,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 3px;
     padding: 0;
     margin-top: 0.35em;
+    /*margin-left: 200px;*/
 }
 header p {
     display: block;
@@ -136,9 +132,6 @@ header p {
     height: 4.5em;
     border-left: solid 1px #fff;
 }
-
-
-
 
 #footer .icons {
     padding: 0.75em 2em 0.75em 2em;
