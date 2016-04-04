@@ -1,12 +1,13 @@
 <h2 style="text-align: center; color: white;">Projects</h2>
 
-<div id="polaroid" class="col-md-8">   
+<div id="polaroid"  ng-repeat=" project in projects">   
 	<figure>
-		<img src="images/memoryGame.png" />
-		<figcaption>Memory Game, Dec '15</figcaption>
+		<img ng-src="{{project.projectImg}}" />
+		<figcaption><h5>{{project.projectName}}</h5><p>{{project.desc}}</p></figcaption>
+		
 	</figure>
 
-	<figure>
+	<!-- <figure>
 		<img src="images/gRead.png" />
 		<figcaption>Galvanize Read, Dec '15</figcaption>
 	</figure>
@@ -34,11 +35,11 @@
 	<figure>
 		<img src="images/gEat.png" />
 		<figcaption>Galvanize Eat, Apr '16</figcaption>
-	</figure>
+	</figure> -->
 
-	<figure>
+	<!-- <figure>
 		<img src="images/spotify.png" />
 		<figcaption>Spotify, Apr '16</figcaption>
-	</figure>
+	</figure> -->
 
 </div>

@@ -57,6 +57,10 @@ img{
   border-radius: 25px;
 }
 
+a{
+  color: white;
+}
+
 #header {
     position: relative;
     color: #fff;
@@ -146,9 +150,7 @@ background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
 box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
 }
 #polaroid{
-
 width:100%;
-overflow:hidden;
 }
 /***Position the figures containing the images and captions***/
 #polaroid figure{
@@ -162,7 +164,7 @@ height: 300px;
 #polaroid figure img{
   width: 280px;
   height: 200px;
-  
+
 }
 
 /* Footer */
