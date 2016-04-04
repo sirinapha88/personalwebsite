@@ -1,7 +1,8 @@
 app.controller("MainCtrl", function($scope, $location){
-	$scope.isContact = false;
+	
 });
 app.controller("ProjectCtrl", function($scope, $location){
+	
 	$scope.projects = [{
 		projectName:"petbesthotels , Mar '16",
 		desc:"Booking web site for pet hotels.",
@@ -24,7 +25,7 @@ app.controller("ProjectCtrl", function($scope, $location){
 		projectName:"ShoppingCart App Feb '15",
 		desc:"Angular app with back-end based on stories.",
 		projectImg:"images/shoppingCart.png",
-		projectLink:""
+		projectLink:"https://github.com/sirinapha88/shoppingCartApp"
 	},
 	{
 		projectName:"Spotify Search Dec '15",

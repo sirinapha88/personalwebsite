@@ -1,13 +1,15 @@
 <h2 style="text-align: center; color: white;">Projects</h2>
 <br>
 <div id="polaroid"  ng-repeat=" project in projects"> 
-	<div><a href="{{project.projectLink}}">
+	<div>
 		<figure>  
+			<a href="{{project.projectLink}}">
 			<img ng-src="{{project.projectImg}}" />
 			<figcaption>
 				<h5 style="color: black;">{{project.projectName}}</h5>
 				<p style="font-size: 12px; color: black;">{{project.desc}}</p>
-			</figcaption>
-		</figure></a>
+				
+			</figcaption></a>
+		</figure>
 	</div>
 </div>
