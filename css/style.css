@@ -5,19 +5,19 @@ body {
   line-height: 135%;
   font-family: helvetica;
   background-image: url("../images/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: auto;
-    background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+  background-attachment: scroll;
 }
 
 .container-fluid {
   margin: 0 8%;
 }
-
+/*
 footer:before{
   content: '';
-  /*display: block;*/
+  display: block;
   width: 90px;
   height: 66px;
   position: absolute;
@@ -26,15 +26,15 @@ footer:before{
   margin-left: -45px;
   margin-bottom: -33px;
   background: url("../images/arrow.svg") no-repeat;
-}
+}*/
 
 .pull-right{
   margin-right: 20px;
 }
 
 .pull-right img{
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   display: block;
   margin-bottom: 10px;
 }
@@ -63,7 +63,7 @@ img{
     text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
     text-align: center;
     margin: 0;
-    padding: 14em 0 14em 0;
+    padding: 10em 0 10em 0;
     cursor: default;
 }
 
@@ -126,6 +126,9 @@ form {
 
 figure, figcaption{ /*add any other html5 elements you use*/
 display:block;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
 }
 
 #polaroid figure{
@@ -143,8 +146,7 @@ background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
 box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
 }
 #polaroid{
-padding:20px 10px;
-/*setting a width and adding overflow:hidden will clear the floats we're going to apply to figure*/
+
 width:100%;
 overflow:hidden;
 }
@@ -152,8 +154,15 @@ overflow:hidden;
 #polaroid figure{
 float:left; /*places the images in a horizontal line*/
 position:relative; /*allows precise positioning of the tape in step 5- see support section below for more info*/
-width:200px; /width of the images*/
-margin:10px 20px; /*space between the images*/
+width:300px; 
+height: 300px;
+/*margin:20px 20px; */
+}
+
+#polaroid figure img{
+  width: 280px;
+  height: 200px;
+
 }
 
 /* Footer */
@@ -167,7 +176,7 @@ margin:10px 20px; /*space between the images*/
 #footer:after {
     content: '';
     display: block;
-    position: absolute;
+    position: fixed;
     top: -4.5em;
     left: 50%;
     height: 4.5em;
