@@ -109,12 +109,53 @@ header p {
     border-top: solid 1px rgba(255, 255, 255, 0.5);
     margin: 4px 0 0.8em 0;
 }
+.col-md-6 li{
+  text-align: center;
+}
 
 *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+figure, figcaption{ /*add any other html5 elements you use*/
+display:block;
+}
+
+#polaroid figure{
+padding: 6px 8px 10px 8px; /*size of the frame*/
+/*give the frame's background colour a gradient*/
+background: #eee6d8; /*fallback colour for browsers that don't support gradients*/
+background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+/*give the Polaroids a small drop shadow*/
+-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+#polaroid{
+padding:20px 10px;
+/*setting a width and adding overflow:hidden will clear the floats we're going to apply to figure*/
+width:100%;
+overflow:hidden;
+}
+/***Position the figures containing the images and captions***/
+#polaroid figure{
+float:left; /*places the images in a horizontal line*/
+position:relative; /*allows precise positioning of the tape in step 5- see support section below for more info*/
+width:200px; /width of the images*/
+margin:10px 20px; /*space between the images*/
+}
+
 /* Footer */
 #footer {
     position: relative;
