@@ -14,19 +14,6 @@ body {
 .container-fluid {
   margin: 0 8%;
 }
-/*
-footer:before{
-  content: '';
-  display: block;
-  width: 90px;
-  height: 66px;
-  position: absolute;
-  left: 50%;
-  bottom: -4.5em;
-  margin-left: -45px;
-  margin-bottom: -33px;
-  background: url("../images/arrow.svg") no-repeat;
-}*/
 
 .pull-right{
   margin-right: 20px;
@@ -39,7 +26,7 @@ footer:before{
   margin-bottom: 10px;
 }
 .img-circle {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 80%;
   display: block;
@@ -89,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1.75em;
+    color: white;
 }
 
 #header header p {
@@ -180,7 +168,7 @@ height: 300px;
     display: block;
     position: fixed;
     top: -4.5em;
-    left: 50%;
+    left: 20%;
     height: 4.5em;
     border-left: solid 1px #fff;
 }
@@ -190,7 +178,7 @@ height: 300px;
     border-radius: 3em;
     border: solid 1px #fff;
     display: inline-block;
-    margin: 0 0 3em 0;
+    margin: 0 0 2em 0;
     color: white;
 }
 ul.icons li {
