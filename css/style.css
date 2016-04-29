@@ -9,6 +9,7 @@ body {
   background-size: cover;
   background-position: auto;
   background-attachment: scroll;
+  height: 1000px;
 }
 
 .container-fluid {
@@ -45,7 +46,7 @@ body {
 }
 
 a{
-  color: white;
+  color: black;
 }
 
 #header {
@@ -136,6 +137,7 @@ background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
 -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
 -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
 box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+color: black;
 }
 #polaroid{
 width:100%;
@@ -144,8 +146,9 @@ width:100%;
 #polaroid figure{
 float:left; /*places the images in a horizontal line*/
 position:relative; /*allows precise positioning of the tape in step 5- see support section below for more info*/
-width:300px; 
+width:350px; 
 height: 300px;
+color: black;
 /*margin:20px 20px; */
 }
 
