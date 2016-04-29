@@ -7,7 +7,7 @@ app.controller("ProjectCtrl", function($scope, $location){
 		projectName:"petbesthotels , Mar '16",
 		desc:"Booking web site for pet hotels.",
 		projectImg:"images/petbesthotels.png",
-		projectLink:"petbesthotels.com"
+		projectLink:"http://www.petbesthotels.com"
 	},
 	{
 		projectName:"faveFlix Feb '16",
