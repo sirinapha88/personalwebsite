@@ -140,7 +140,8 @@ box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
 color: black;
 }
 #polaroid{
-width:100%;
+width:auto;
+height: auto;
 }
 /***Position the figures containing the images and captions***/
 #polaroid figure{
@@ -160,7 +161,7 @@ color: black;
 
 /* Footer */
 #footer {
-    position: relative;
+    /*position: relative;*/
     color: #fff;
     text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
     text-align: center;
@@ -188,8 +189,7 @@ ul.icons li {
     display: inline-block;
     color: white;
 }
-ul.icons li a{
-    
+ul.icons li a{    
     color: white;
     margin-right: 10px;
 }
