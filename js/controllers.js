@@ -13,7 +13,7 @@ app.controller("ProjectCtrl", function($scope, $location){
 		projectName:"faveFlix Feb '16",
 		desc:"This app helps the user prioritize their movie viewing preferences.",
 		projectImg:"images/faveFlix.png",
-		projectLink:"https://github.com/sirinapha88/faveFlix"
+		projectLink:"https://github.com/sirinapha88/faveFlixRe"
 	},
 	{
 		projectName:"Memory Game Nov '15",
@@ -31,7 +31,7 @@ app.controller("ProjectCtrl", function($scope, $location){
 		projectName:"Spotify Search Dec '15",
 		desc:"Using node request module with promises to access the spotify api.",
 		projectImg:"images/spotify.png",
-		projectLink:"https://github.com/sirinapha88/spotify-albums-and-tracks-server-side-remix"
+		projectLink:"https://github.com/sirinapha88/spotify-albums-and-tracks-server-side-remix-"
 	},
 	{
 		projectName:"Galvanize Read Jan '16",
